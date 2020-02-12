@@ -10,9 +10,8 @@ jobs:
         uses: treosh/lighthouse-ci-action@v2
         with:
           urls: |
-            https://pr-$PR_NUMBER.staging-example.com/
-            https://pr-$PR_NUMBER.staging-example.com/blog
-          budgetPath: ./budgets.json
+            https://suspicious-easley-c45b61.netlify.com/
+            https://suspicious-easley-c45b61.netlify.com/blog
+          budgetPath: ./budget.json
           temporaryPublicStorage: true
-        env:
-          PR_NUMBER: ${{ github.event.pull_request.number }}
+
