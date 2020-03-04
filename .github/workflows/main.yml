@@ -13,5 +13,6 @@ jobs:
             https://suspicious-easley-c45b61.netlify.com/
             https://suspicious-easley-c45b61.netlify.com/blog
           budgetPath: ./budget.json
-          temporaryPublicStorage: true
+          upload.serverBaseUrl: ${{ secrets.LHCI_SERVER }}
+          kupload.token: ${{ secrets.LHCI_TOKEN }}
 
