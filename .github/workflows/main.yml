@@ -14,5 +14,5 @@ jobs:
             https://suspicious-easley-c45b61.netlify.com/blog
           budgetPath: ./budget.json
           upload.serverBaseUrl: ${{ secrets.LHCI_SERVER }}
-          kupload.token: ${{ secrets.LHCI_TOKEN }}
+          upload.token: ${{ secrets.LHCI_TOKEN }}
 
